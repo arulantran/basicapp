@@ -1,0 +1,58 @@
+Servlet -Server side Program
+		- Process client request
+		- Generate dynamic response (html) page
+		-.java extension
+		-
+
+JSP -Java Server Pages
+	- Easy way to create Server side HTML
+	- extension .jsp
+	- Java statements embeded inside HTML
+Client Request--> Home.jsp -->Web Server
+JSP Engine--> Converts .jsp file into servlet
+ServletEngine--> Generates response
+
+JSP Elements:
+	1. JSP Scriptlets
+	2. JSP Directives
+	3. JSP Action
+Scriptlet Tags:
+
+	- insert Java statements
+	<% 
+	//Local variable
+	int rollno=1001;
+	 %>
+	- declaration tag (Creating method,
+	instance variable)
+	<%! 
+	//Instance Variable
+	int rollno=1002; %>
+Directives: -- Applied for entire JSP page
+	- <%@    %>
+	- Page directive
+	-include directive
+	
+Action Tag:
+jsp:include 
+jsp:forward
+
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
